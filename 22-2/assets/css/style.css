@@ -1,5 +1,5 @@
 body {
-    background-color: #909090;
+    background-color: #757575;
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 24px;
 }
@@ -32,4 +32,12 @@ main > div > h3 {
 
 main > div > p {
     font-size: 16px;
+}
+
+main > div {
+    background-color: #555555;
+    width: 29%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
 }
