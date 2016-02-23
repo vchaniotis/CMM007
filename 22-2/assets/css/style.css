@@ -1,8 +1,11 @@
 body {
-    background-color: #505050;
+    background-color: #909090;
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 24px;
-    font-style: italic;
+}
+
+h1 {
+    color: #680000;
 }
 
 img {
@@ -11,5 +14,18 @@ img {
 }
 
 footer > p:after {
+
     content: ' Vasilis Chaniotis'
+}
+
+main > p {
+    font-style: italic;
+}
+
+main > h2 {
+    color: #500000;
+}
+
+main > div > h3 {
+    color: #330000;
 }
