@@ -29,3 +29,7 @@ main > h2 {
 main > div > h3 {
     color: #330000;
 }
+
+main > div > p {
+    font-size: 16px;
+}
