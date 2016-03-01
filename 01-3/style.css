@@ -28,6 +28,10 @@ main {
     width: 960px;
 }
 
+#face {
+    float: left;
+}
+
 #maincontent {
     width: 66%;
     float: left;
