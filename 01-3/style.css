@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+
+#logo {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: center;
+}
+
+li {
+    float: left;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    padding: 0 33px 33px 33px;
+    text-decoration: none;
+}
+
+main {
+    width: 960px;
+}
+
+#cont1 {
+    width: 66%;
+}
+
+h1, h2, h4 {
+    font-family: "roboto light";
+}
+
+p, text {
+    font-family: "roboto";
+}
+
+footer > p {
+    background-color: #363636;
+    color: white;
+}
