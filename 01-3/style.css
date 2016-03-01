@@ -28,19 +28,37 @@ main {
     width: 960px;
 }
 
-#cont1 {
+#maincontent {
     width: 66%;
+    float: left;
+}
+
+#cont5 {
+    width: 33%;
+    float: right;
+}
+#fixer{
+    clear: both;
+}
+#art1{
+    background-color: #DBC9DF;
+}
+
+#art2{
+    background-color: #782A7E;
 }
 
 h1, h2, h4 {
-    font-family: "roboto light";
+    font-family: "Roboto light", sans-serif;
 }
 
 p, text {
-    font-family: "roboto";
+    font-family: "Roboto", sans-serif;
 }
 
 footer > p {
     background-color: #363636;
     color: white;
+    padding: 50px;
 }
+
