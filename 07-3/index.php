@@ -18,6 +18,7 @@
             echo "You can buy specs, mugs and sausage rolls!";
         }
 
+
         $wantedgood = "specs";
 
         switch ($wantedgood) {
@@ -32,6 +33,13 @@
                 break;
             default:
                 echo "You cannot buy anything";
+        }
+
+
+        $provisionedActivities = array("Specs", "Drugs", "Rock and Roll");
+
+        foreach($provisionedActivities as $x) {
+            print "<p>$x</p>";
         }
         ?>
     </p>
