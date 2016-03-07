@@ -18,17 +18,17 @@
             echo "You can buy specs, mugs and sausage rolls!";
         }
 
-        $wantedgood = "mugs";
+        $wantedgood = "specs";
 
         switch ($wantedgood) {
             case "specs":
-                echo "You have to be at least 16 to buy mugs";
+                echo "You have to be at least 16 to buy specs";
                 break;
             case "mugs":
                 echo "You have to be at least 18 to buy mugs";
                 break;
             case "sausage rolls":
-                echo "You have to be at least 21 to buy mugs";
+                echo "You have to be at least 21 to buy sausage rolls";
                 break;
             default:
                 echo "You cannot buy anything";
