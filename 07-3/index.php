@@ -6,7 +6,7 @@
     <p>
         <?php
         $myname = "Vasilis";
-        $myage = 11;
+        $myage = 19;
 
         if ($myage > 16) {
             echo "You can buy specs!";
