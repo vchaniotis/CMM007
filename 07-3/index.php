@@ -36,7 +36,14 @@
         }
 
 
-        $provisionedActivities = array("Specs", "Drugs", "Rock and Roll");
+        $provisionedActivities = array("Specs", "Mugs", "Sausage rolls");
+
+        foreach($provisionedActivities as $x) {
+            print "<p>$x</p>";
+        }
+
+        $provisionedActivities[1] = "Hugs";
+        unset($provisionedActivities[2]);
 
         foreach($provisionedActivities as $x) {
             print "<p>$x</p>";
