@@ -199,7 +199,9 @@
         print "<br/>";
         cleanUp("Vasilis", 3, 4, 5);
         print "<br/>";
+        print "<br/>";
         cleanUp("Viky", 2, 1, 1);
+        print "<br/>";
         print "<br/>";
         cleanUp("John", 1, 0, 3);
 
