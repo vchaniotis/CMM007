@@ -75,6 +75,7 @@
             else {
                 print "On the i of the month no products are available";
             }
+            print "<br/>";
         }
 
 
