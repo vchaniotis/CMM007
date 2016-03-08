@@ -106,8 +106,9 @@
                     print "No more goods are available this month";
                 }
                 print "<br/>";
-                $j++;
+
             }
+            $j++;
         }
 
 
