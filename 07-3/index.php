@@ -83,9 +83,9 @@
         print "<br/>";
         print "<br/>";
 
-        $specs = 7;
-        $mugs = 7;
-        $sausage = 7;
+        $specs = 8;
+        $mugs = 8;
+        $sausage = 8;
         $j = 1;
         while ($j < 31) {
             if ($specs > 0 && $mugs > 0 && $sausage > 0) {
