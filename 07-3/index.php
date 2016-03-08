@@ -151,6 +151,26 @@
         print "<br/>";
         rsort($fav_bands);
         print join(", ", $fav_bands);
+        print "<br/>";
+
+        $people = array();
+        array_push($people, "a");
+        array_push($people, "b");
+        array_push($people, "c");
+        array_push($people, "d");
+        array_push($people, "e");
+        array_push($people, "f");
+        array_push($people, "g");
+        array_push($people, "h");
+        array_push($people, "i");
+        array_push($people, "j");
+        array_push($people, "k");
+        array_push($people, "l");
+        sort($people);
+        $winner = rand(0, count($people));
+        print "And the person who wins all the mugs is " . strtoupper($people[$winner]) . "!!!";
+
+
 
         ?>
     </p>
