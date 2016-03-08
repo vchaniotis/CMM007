@@ -145,7 +145,7 @@
         array_push($fav_bands, "Nickelback");
 
         print count($fav_bands);
-
+        print "<br/>";
         sort($fav_bands);
         print join(", ", $fav_bands);
 
