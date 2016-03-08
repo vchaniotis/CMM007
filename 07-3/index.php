@@ -88,27 +88,26 @@
         $sausage = 7;
         $j = 1;
         while ($j < 31) {
-            $todaysGood = rand(0, 2);
-            if ($todaysGood == 0) {
-                $specs--;
-            }
-            if ($todaysGood == 1) {
-                $mugs--;
-            }
-            if ($todaysGood == 2) {
-                $sausage--;
-            }
+            if ($specs > 0 && $mugs > 0 && $sausage > 0) {
+                $todaysGood = rand(0, 2);
+                if ($todaysGood == 0) {
+                    $specs--;
+                }
+                if ($todaysGood == 1) {
+                    $mugs--;
+                }
+                if ($todaysGood == 2) {
+                    $sausage--;
+                }
 
-            if (($specs != 0) && ($mugs != 0) && ($sausage != 0)) {
-                print "On the " . $j . " of the month " . $provisionedActivities[$todaysGood] . " are available";
+                if (($specs != 0) && ($mugs != 0) && ($sausage != 0)) {
+                    print "On the " . $j . " of the month " . $provisionedActivities[$todaysGood] . " are available";
+                } else {
+                    print "No more goods are available this month";
+                }
+                print "<br/>";
+                $j++;
             }
-
-
-            else {
-                print "No more goods are available this month";
-            }
-            print "<br/>";
-            $j++;
         }
 
 
