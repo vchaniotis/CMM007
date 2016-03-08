@@ -111,6 +111,12 @@
             $j++;
         }
 
+        print "<br/>";
+        print "<br/>";
+        print "<br/>";
+
+        print strlen("David");
+
 
         ?>
     </p>
