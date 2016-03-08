@@ -152,6 +152,7 @@
         rsort($fav_bands);
         print join(", ", $fav_bands);
         print "<br/>";
+        print "<br/>";
 
         $people = array();
         array_push($people, "a");
@@ -168,7 +169,16 @@
         array_push($people, "l");
         sort($people);
         $winner = rand(0, count($people));
+        print "And the person who wins all the specs is " . strtoupper($people[$winner]) . "!!!";
+        unset($people[$winner]);
+        print "<br/>";
+        $winner = rand(0, count($people));
         print "And the person who wins all the mugs is " . strtoupper($people[$winner]) . "!!!";
+        unset($people[$winner]);
+        print "<br/>";
+        $winner = rand(0, count($people));
+        print "And the person who wins all the sausage rolls is " . strtoupper($people[$winner]) . "!!!";
+
 
 
 
