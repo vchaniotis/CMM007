@@ -98,9 +98,12 @@
             if ($todaysGood == 2) {
                 $sausage--;
             }
-            if (($specs != 0) || ($mugs != 0) || ($sausage != 0)) {
+
+            if (($specs != 0) && ($mugs != 0) && ($sausage != 0)) {
                 print "On the " . $j . " of the month " . $provisionedActivities[$todaysGood] . " are available";
             }
+
+
             else {
                 print "No more goods are available this month";
             }
