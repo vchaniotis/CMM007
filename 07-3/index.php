@@ -51,25 +51,25 @@
 
         for ($i = 1; $i < 30; $i++)
         {
-            if (($i / 2 == 0) && ($i / 3 == 0) && ($i / 4 == 0)) {
+            if (($i % 2 == 0) && ($i % 3 == 0) && ($i % 4 == 0)) {
                 print "On the i of the month " . $provisionedActivities[0] . ", " . $provisionedActivities[1] . " and " . $provisionedActivities[2] . " are available";
             }
-            else if (($i / 2 == 0) && ($i / 3 == 0)) {
+            else if (($i % 2 == 0) && ($i % 3 == 0)) {
                 print "On the i of the month " . $provisionedActivities[0] . " and " . $provisionedActivities[1] . " are available";
             }
-            else if (($i / 3 == 0) && ($i / 4 == 0)) {
+            else if (($i % 3 == 0) && ($i % 4 == 0)) {
                 print "On the i of the month " . $provisionedActivities[1] . " and " . $provisionedActivities[2] . " are available";
             }
-            else if (($i / 2 == 0) && ($i / 4 == 0)) {
+            else if (($i % 2 == 0) && ($i % 4 == 0)) {
                 print "On the i of the month " . $provisionedActivities[0] . " and " . $provisionedActivities[2] . " are available";
             }
-            else if ($i / 2 == 0) {
+            else if ($i % 2 == 0) {
                 print "On the i of the month " . $provisionedActivities[0] . " are available";
             }
-            else if ($i / 3 == 0) {
+            else if ($i % 3 == 0) {
                 print "On the i of the month " . $provisionedActivities[1] . " are available";
             }
-            else if ($i / 4 == 0) {
+            else if ($i % 4 == 0) {
                 print "On the i of the month " . $provisionedActivities[2] . " are available";
             }
             else {
