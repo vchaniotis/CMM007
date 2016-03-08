@@ -193,7 +193,7 @@
         print "<br/>";
 
         function cleanUp($name, $num_specs, $num_mugs, $num_sausages) {
-            echo "Wanted: " . $name . "<br/>" . "Known to be in possession of the following items:" . "<br/>" . "Specs: " . $num_specs . "<br/>" . "Mugs: " . $num_mugs . "<br/>" . "Sausage Rolls: " . $num_sausages . "<br/>" . "Award for capture: " . (5 * (($num_specs * $num_mugs * $num_sausages) * ($num_specs * $num_mugs * $num_sausages)));
+            echo "Wanted: " . $name . "<br/>" . "Known to be in possession of the following items:" . "<br/>" . "Specs " . $num_specs . "<br/>" . "Mugs " . $num_mugs . "<br/>" . "Sausage Rolls " . $num_sausages . "<br/>" . "Award for capture: " . (5 * (($num_specs * $num_mugs * $num_sausages) * ($num_specs * $num_mugs * $num_sausages)));
         }
 
         print "<br/>";
