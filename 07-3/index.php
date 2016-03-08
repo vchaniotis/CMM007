@@ -43,7 +43,7 @@
         }
 
         $provisionedActivities[1] = "Hugs";
-        unset($provisionedActivities[2]);
+        //unset($provisionedActivities[2]);
 
         foreach($provisionedActivities as $x) {
             print "<p>$x</p>";
