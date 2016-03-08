@@ -146,6 +146,9 @@
 
         print count($fav_bands);
 
+        sort($fav_bands);
+        print join(", ", $fav_bands);
+
 
         ?>
     </p>
