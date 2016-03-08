@@ -79,6 +79,13 @@
         }
 
 
+        while ($j < 31) {
+            $todaysGood = rand(0, 2);
+            print "On the " . $j . " of the month " . $todaysGood . " are available";
+            $j++;
+        }
+
+
         ?>
     </p>
 </body>
