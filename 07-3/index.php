@@ -117,10 +117,18 @@
 
         $myname = "David";
         print strlen($myname);
+        print "<br/>";
         print substr($myname, 0, 4);
+        print "<br/>";
         print strtoupper($myname);
+        print "<br/>";
         print strtolower($myname);
+        print "<br/>";
         print strpos($myname, "v");
+        print "<br/>";
+        print round(M_PI);
+        print "<br/>";
+        print round(M_PI, 4);
 
 
         ?>
