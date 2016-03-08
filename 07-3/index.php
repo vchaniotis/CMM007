@@ -86,6 +86,7 @@
         $specs = 7;
         $mugs = 7;
         $sausage = 7;
+        $j = 1;
         while ($j < 31) {
             $todaysGood = rand(0, 2);
             if ($todaysGood == 0) {
