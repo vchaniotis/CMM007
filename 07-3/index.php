@@ -169,15 +169,15 @@
         array_push($people, "l");
         sort($people);
         $winner = rand(0, count($people));
-        print "And the person who wins all the specs is " . strtoupper($people[$winner]) . "!!!";
+        print "And the person who wins all the specs iiiiiissssss *drums playing in the background* " . strtoupper($people[$winner]) . "!!!";
         unset($people[$winner]);
         print "<br/>";
         $winner = rand(0, count($people));
-        print "And the person who wins all the mugs is " . strtoupper($people[$winner]) . "!!!";
+        print "And the person who wins all the mugs iiiiiissssss *drums playing in the background* " . strtoupper($people[$winner]) . "!!!";
         unset($people[$winner]);
         print "<br/>";
         $winner = rand(0, count($people));
-        print "And the person who wins all the sausage rolls is " . strtoupper($people[$winner]) . "!!!";
+        print "And the person who wins all the sausage rolls iiiiiissssss *drums playing in the background* " . strtoupper($people[$winner]) . "!!!";
 
 
 
