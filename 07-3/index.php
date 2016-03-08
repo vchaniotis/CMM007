@@ -117,6 +117,7 @@
 
         $myname = "David";
         print strlen($myname);
+        print substr($myname, 0, 4);
 
 
 
