@@ -120,6 +120,7 @@
         print substr($myname, 0, 4);
         print strtoupper($myname);
         print strtolower($myname);
+        print strpos($myname, "v");
 
 
         ?>
