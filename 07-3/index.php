@@ -49,7 +49,7 @@
             print "<p>$x</p>";
         }
 
-        for ($i = 1; $i < 30; $i++)
+        for ($i = 1; $i < 31; $i++)
         {
             if (($i % 2 == 0) && ($i % 3 == 0) && ($i % 4 == 0)) {
                 print "On the " . $i . " of the month " . $provisionedActivities[0] . ", " . $provisionedActivities[1] . " and " . $provisionedActivities[2] . " are available";
