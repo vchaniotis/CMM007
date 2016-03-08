@@ -115,7 +115,9 @@
         print "<br/>";
         print "<br/>";
 
-        print strlen("David");
+        $myname = "David";
+        print strlen($myname);
+
 
 
         ?>
