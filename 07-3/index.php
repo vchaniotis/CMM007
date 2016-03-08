@@ -179,7 +179,17 @@
         $winner = rand(0, count($people));
         print "And the person who wins all the sausage rolls iiiiiissssss *drums playing in the background* " . strtoupper($people[$winner]) . "!!!";
 
+        print "<br/>";
+        print "<br/>";
+        print "<br/>";
 
+
+        function squareValue($number) {
+            echo $number * $number;
+        }
+
+        $n = 6;
+        squareValue($n);
 
 
         ?>
