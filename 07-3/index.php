@@ -129,6 +129,11 @@
         print round(M_PI);
         print "<br/>";
         print round(M_PI, 4);
+        print "<br/>";
+        print rand();
+        print "<br/>";
+        print rand(1, 10);
+        print "<br/>";
 
 
         ?>
