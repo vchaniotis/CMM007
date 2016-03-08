@@ -148,7 +148,9 @@
         print "<br/>";
         sort($fav_bands);
         print join(", ", $fav_bands);
-
+        print "<br/>";
+        rsort($fav_bands);
+        print join(", ", $fav_bands);
 
         ?>
     </p>
