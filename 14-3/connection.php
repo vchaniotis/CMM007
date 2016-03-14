@@ -6,10 +6,10 @@
  * Time: 10:10
  */
 
-define('DB_SERVER', 'db1510996');
+define('DB_SERVER', 'eu-cdbr-azure-north-d.cloudapp.net');
 define('DB_USERNAME', 'baaf8be42fef31');
 define('DB_PASSWORD', 'aec19d19');
-define('DB_DATABASE', 'users');
+define('DB_DATABASE', 'db1510996');
 $db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 
 ?>
