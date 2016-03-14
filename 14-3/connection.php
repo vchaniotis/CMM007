@@ -7,8 +7,8 @@
  */
 
 define('DB_SERVER', 'db1510996');
-define('DB_USERNAME', 'user');
-define('DB_PASSWORD', 'pass');
+define('DB_USERNAME', 'baaf8be42fef31');
+define('DB_PASSWORD', 'aec19d19');
 define('DB_DATABASE', 'users');
 $db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 
