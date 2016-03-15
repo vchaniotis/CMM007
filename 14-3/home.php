@@ -16,7 +16,10 @@
     $sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
     $result = mysqli_query($db, $sql);
 
-    while($row = $result -> fetch_array())
+    while($row = $result -> fetch_array()) {
+        $user = $row['username'];
+        echo "<p>" . $user . "</p>";
+    }
     ?>
 
 </body>
