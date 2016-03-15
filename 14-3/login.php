@@ -16,11 +16,11 @@ else {
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$sql = "SELECT uid FROM users WHERE username = '$username' AND password = '$password'";
+$sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
 $result = mysqli_query($db, $sql);
 
 if(mysqli_num_rows($result) == 1){
-    header("location: home.php?username=".$username."&password=".$password."");
+    header("location: home.php?username=" . $username . "&password=" . $password . "");
 }
 else {
     echo "Incorrect username or password.";
