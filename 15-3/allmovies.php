@@ -8,6 +8,13 @@
 <body>
 <h1>All movies</h1>
 
+
+
+
+</body>
+</html>
+
+
 <?php
 include("connection.php");
 $db = marvelmovies;
@@ -25,7 +32,3 @@ while($row = $result -> fetch_array()) {
     echo "<p>" . $notes . "</p>";
 }
 ?>
-
-
-</body>
-</html>
