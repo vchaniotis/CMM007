@@ -8,8 +8,8 @@
 <body>
     <h1>Hello</h1>
     <?php
-        echo $_POST['username'];
-        echo $_POST['password'];
+        echo $_GET['username'];
+        echo $_GET['password'];
     ?>
 
 </body>
