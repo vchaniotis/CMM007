@@ -8,6 +8,7 @@
 <body>
 <h1>Marvel Movies</h1>
 <?php
+include("connection.php");
 $db = marvelmovies;
 $sql = "SELECT * FROM marvelmovies";
 $result = mysqli_query($db, $sql);
