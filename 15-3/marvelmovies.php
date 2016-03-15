@@ -15,6 +15,12 @@ $result = mysqli_query($db, $sql);
 while($row = $result -> fetch_array()) {
     $movieTitle = $row['title'];
     echo "<p>" . $movieTitle . "</p>";
+    $year = $row['title'];
+    echo "<p>" . $year . "</p>";
+    $studio = $row['title'];
+    echo "<p>" . $studio . "</p>";
+    $notes = $row['title'];
+    echo "<p>" . $notes . "</p>";
 }
 
 ?>

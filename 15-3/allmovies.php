@@ -9,11 +9,20 @@
 <h1>All movies</h1>
 
 <?php
+$db = marvelmovies;
+$sql = "SELECT * FROM marvelmovies";
+$result = mysqli_query($db, $sql);
 
-
-
-
-
+while($row = $result -> fetch_array()) {
+    $movieTitle = $row['title'];
+    echo "<p>" . $movieTitle . "</p>";
+    $year = $row['title'];
+    echo "<p>" . $year . "</p>";
+    $studio = $row['title'];
+    echo "<p>" . $studio . "</p>";
+    $notes = $row['title'];
+    echo "<p>" . $notes . "</p>";
+}
 ?>
 
 
