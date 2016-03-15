@@ -17,11 +17,11 @@ $result = mysqli_query($db, $sql);
 while($row = $result -> fetch_array()) {
     $movieTitle = $row['title'];
     echo "<p>" . $movieTitle . "</p>";
-    $year = $row['title'];
+    $year = $row['yearReleased'];
     echo "<p>" . $year . "</p>";
-    $studio = $row['title'];
+    $studio = $row['productionStudio'];
     echo "<p>" . $studio . "</p>";
-    $notes = $row['title'];
+    $notes = $row['notes'];
     echo "<p>" . $notes . "</p>";
 }
 ?>
