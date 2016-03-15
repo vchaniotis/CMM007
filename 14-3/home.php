@@ -8,8 +8,15 @@
 <body>
     <h1>Hello</h1>
     <?php
-        echo $_GET['username'];
-        echo $_GET['password'];
+    include("connection.php");
+    echo $_GET['username'];
+    echo $_GET['password'];
+
+
+    $sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
+    $result = mysqli_query($db, $sql);
+
+    while($row = $result -> fetch_array())
     ?>
 
 </body>
