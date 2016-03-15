@@ -8,12 +8,14 @@
 <body>
 <h1>Marvel Movies</h1>
 <?php
-/**
- * Created by PhpStorm.
- * User: 1510996
- * Date: 15/03/2016
- * Time: 10:12
- */
+$db = marvelmovies;
+$sql = "SELECT * FROM marvelmovies";
+$result = mysqli_query($db, $sql);
+
+while($row = $result -> fetch_array()) {
+    $movieTitle = $row['title'];
+    echo "<p>" . $movieTitle . "</p>";
+}
 
 ?>
 
