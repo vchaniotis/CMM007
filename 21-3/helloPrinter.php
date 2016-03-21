@@ -8,7 +8,7 @@
 
 <body>
 <?php
-echo "<p>Hello </p>" . $planet;
+echo "<p>Hello " . $planet . "</p>";
 
 ?>
 </body>
