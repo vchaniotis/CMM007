@@ -10,6 +10,8 @@
 <?php
 $surname = $_POST['surname'];
 $name = $_POST['name'];
+$gender = $_POST['gender'];
+$power = $_POST['power'];
 echo $surname . $name . $gender . $power;
 ?>
 
