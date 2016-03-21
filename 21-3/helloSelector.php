@@ -8,9 +8,9 @@
 
 <body>
 <p>Where would you like to say hello?</p>
-<a href="helloPrinter.php?planet=earth">Earth</a><br><br>
-<a href="helloPrinter.php?planet=mars">Mars</a><br><br>
-<a href="helloPrinter.php?planet=uranus">Uranus</a>
+<a href="helloPrinter.php?planet=Earth">Earth</a><br><br>
+<a href="helloPrinter.php?planet=Mars">Mars</a><br><br>
+<a href="helloPrinter.php?planet=Uranus">Uranus</a>
 
 </body>
 </html>
