@@ -1,7 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Selector</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
 <?php
-/**
- * Created by PhpStorm.
- * User: 1510996
- * Date: 21/03/2016
- * Time: 09:39
- */
+echo "<p>Hello </p>" . $planet;
+
+?>
+</body>
+</html>
+
+
+
