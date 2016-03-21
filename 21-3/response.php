@@ -8,8 +8,8 @@
 
 <body>
 <?php
-$surname = $_POST[“surname”];
-$name = $_POST[“name”];
+$surname = $_POST['surname'];
+$name = $_POST['name'];
 echo $surname . $name . $gender . $power;
 ?>
 
