@@ -12,8 +12,8 @@ $surname = $_POST['surname'];
 $name = $_POST['name'];
 $gender = $_POST['gender'];
 $power = $_POST['power'];
-echo "Hello world!!!";
-echo $surname;
+echo "Hello world";
+echo $surname . $name . $gender . $power;
 ?>
 
 
