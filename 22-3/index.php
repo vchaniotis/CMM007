@@ -16,9 +16,10 @@ if ($db -> connect_errno) {
 $sql_query = "SELECT * FROM marvelmovies";
 $result = $db->query($sql_query);
 while($row = $result->fetch_array()){
-    echo "<p>" . $result . "</p>";
+    echo "<p>" . $row['title'] . "</p>";
 }
-
+$result->close();
+$db->close();
 
 
 ?>
