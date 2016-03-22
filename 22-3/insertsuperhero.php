@@ -14,11 +14,14 @@
  * Date: 22/03/2016
  * Time: 10:01
  */
+include("connection.php");
 $surname = $_POST["surnmane"];
 $name = $_POST["name"];
 $gender = $_POST["gender"];
 $power = $_POST["power"];
 
+$db = superheros;
+$sql = "INSERT INTO superheros VALUES ($surname, $name, $gender, $power)";
 
 
 
