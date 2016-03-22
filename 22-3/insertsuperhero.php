@@ -20,6 +20,8 @@ $gender = $_POST["gender"];
 $power = $_POST["power"];
 
 
+
+
 ?>
 
 

@@ -14,3 +14,22 @@
  * Date: 22/03/2016
  * Time: 10:02
  */
+include("connection.php");
+$db = marvelmovies;
+$sql = "SELECT * FROM marvelmovies";
+$result = mysqli_query($db, $sql);
+
+while($row = $result -> fetch_array()) {
+    $movieTitle = $row['title'];
+    echo "<p>" . $movieTitle . "</p>";
+    $year = $row['yearReleased'];
+    echo "<p>" . $year . "</p>";
+    $studio = $row['productionStudio'];
+    echo "<p>" . $studio . "</p>";
+    $notes = $row['notes'];
+    echo "<p>" . $notes . "</p>";
+}
+?>
+
+</body>
+</html>
