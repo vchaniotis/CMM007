@@ -16,18 +16,18 @@
  */
 include("connection.php");
 $db = marvelmovies;
-$sql = "SELECT * FROM marvelmovies";
+$sql = "SELECT * FROM superheros";
 $result = mysqli_query($db, $sql);
 
 while($row = $result -> fetch_array()) {
-    $movieTitle = $row['title'];
-    echo "<p>" . $movieTitle . "</p>";
-    $year = $row['yearReleased'];
-    echo "<p>" . $year . "</p>";
-    $studio = $row['productionStudio'];
-    echo "<p>" . $studio . "</p>";
-    $notes = $row['notes'];
-    echo "<p>" . $notes . "</p>";
+    $superheroID = $row['superheroID'];
+    echo "<p>" . $superheroID . "</p>";
+    $firstName = $row['firstName'];
+    echo "<p>" . $firstName . "</p>";
+    $lastName = $row['lastName'];
+    echo "<p>" . $lastName . "</p>";
+    $mainSuperpower = $row['mainSuperpower'];
+    echo "<p>" . $mainSuperpower . "</p>";
 }
 ?>
 
