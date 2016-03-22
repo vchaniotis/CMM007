@@ -6,12 +6,17 @@
 </head>
 
 <body>
-<h1>All movies</h1>
+<h1>Database</h1>
 
 <?php
 include("connection.php");
 if ($db -> connect_errno) {
-    die('Connectfailed['.$db->connect_error.']');
+    die('Connectfailed['.$db -> connect_error.']');
+}
+$sql_query = "SELECT * FROM marvelmovies";
+$result = $db->query($sql_query);
+while($row = $result->fetch_array()){
+    echo "<p>" . $result . "</p>";
 }
 
 
