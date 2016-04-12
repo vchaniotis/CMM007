@@ -7,6 +7,9 @@
  */
 $name = $_GET["name"];
 $age = $_GET["age"];
-echo $name . " " . $age;
+echo "<ul>
+        <li>$name</li>" . " " .
+        "<li>$age</li>
+        </ul>";
 
 ?>
