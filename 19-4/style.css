@@ -26,13 +26,13 @@ section {
 }
 
 navigation {
-    width: 33%;
+    width: 25%;
     float: left;
     background-color: lightblue;
 }
 
 content {
-    width: 66%;
+    width: 75%;
     float: right;
     background-color: lightgreen;
 }
