@@ -15,6 +15,8 @@ img {
 }
 
 section {
+    position: absolute;
+    right: -50px;
     background-color: red;
 }
 
