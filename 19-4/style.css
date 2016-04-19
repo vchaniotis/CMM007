@@ -17,6 +17,7 @@ img {
 section {
     width: 80%;
     float: right;
+    background-color: red;
 }
 
 #subtitle {
@@ -26,10 +27,12 @@ section {
 navigation {
     width: 33%;
     float: left;
+    background-color: lightblue;
 }
 
 content {
     width: 66%;
     float: right;
+    background-color: lightgreen;
 }
 
