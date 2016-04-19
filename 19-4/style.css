@@ -1,3 +1,7 @@
+body {
+    font-family: "Times New Roman", Times, sans-serif;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
