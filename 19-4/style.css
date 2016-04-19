@@ -4,7 +4,7 @@
     margin-right: auto;
 }
 
-html, body {
+body {
     font-family: "Verdana", Times, sans-serif;
 }
 
@@ -22,13 +22,9 @@ ul {
 img {
     width: 100px;
     height: 100px;
-    position: relative;
-    left: 10px;
 }
 
 section {
-    position: relative;
-    left: 200px;
     background-color: red;
     width: 60%;
 }
