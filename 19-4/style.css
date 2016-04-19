@@ -8,6 +8,16 @@ ul {
     padding: 0;
 }
 
+img {
+    width: 20%;
+    float: left;
+}
+
+text {
+    width: 80%;
+    float: right;
+}
+
 #subtitle {
 
 }
@@ -21,3 +31,4 @@ content {
     width: 66%;
     float: right;
 }
+
