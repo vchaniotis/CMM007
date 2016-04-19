@@ -16,3 +16,8 @@ navigation {
     width: 33%;
     float: left;
 }
+
+content {
+    width: 66%;
+    float: right;
+}
