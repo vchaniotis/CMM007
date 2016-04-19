@@ -5,7 +5,7 @@ html, body {
 
 header {
     position: fixed;
-
+    left: 50%;
 }
 
 ul {
