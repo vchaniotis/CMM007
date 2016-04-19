@@ -17,12 +17,13 @@ ul {
 img {
     width: 100px;
     height: 100px;
-    float: left;
+    position: relative;
+    left: 10px;
 }
 
 section {
-    position: absolute;
-    right: 50px;
+    position: relative;
+    left: 120px;
     background-color: red;
 }
 
