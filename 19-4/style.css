@@ -1,6 +1,11 @@
-body {
+html, body {
     font-family: "Verdana", Times, sans-serif;
-    width: 70%;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+
 }
 
 ul {
