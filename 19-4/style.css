@@ -11,3 +11,8 @@ ul {
 #subtitle {
 
 }
+
+navigation {
+    width: 33%;
+    float: left;
+}
