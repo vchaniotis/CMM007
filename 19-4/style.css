@@ -19,8 +19,12 @@ img {
     height: 100px;
 }
 
-section {
+#section {
     background-color: red;
+    width: 70%;
+    position: absolute;
+    left: 120px;
+    top: 0px;
 }
 
 #subtitle {
