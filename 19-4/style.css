@@ -8,11 +8,6 @@ body {
     font-family: "Verdana", Times, sans-serif;
 }
 
-header {
-    position: fixed;
-    left: 50%;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -26,7 +21,6 @@ img {
 
 section {
     background-color: red;
-    width: 60%;
 }
 
 #subtitle {
@@ -35,14 +29,12 @@ section {
 
 navigation {
     width: 20%;
-    float: left;
     font-size: 14px;
     background-color: lightblue;
 }
 
 content {
     width: 65%;
-    float: right;
     font-size: 12px;
     background-color: lightgreen;
 }
