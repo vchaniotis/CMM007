@@ -27,7 +27,7 @@ img {
     background-color: red;
     width: 230px;
     position: absolute;
-    left: 120px;
+    margin-left: 120px;
 }
 
 #subtitle {
@@ -41,7 +41,7 @@ navigation {
 }
 
 content {
-    width: 65%;
+    width: 50%;
     font-size: 12px;
     background-color: lightgreen;
 }
