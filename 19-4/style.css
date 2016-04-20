@@ -8,10 +8,6 @@ body {
     font-family: "Verdana", Times, sans-serif;
 }
 
-#header {
-    background-color: lightseagreen;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -19,15 +15,14 @@ ul {
 }
 
 img {
-    width: 100px;
+    width: 130px;
     height: 100px;
 }
 
 #section {
-    background-color: red;
     width: 430px;
     position: absolute;
-    margin-left: 120px;
+    margin-left: 135px;
     margin-top: -125px;
 }
 
@@ -35,15 +30,33 @@ img {
     font-size: 20px;
 }
 
-navigation {
+#navigation {
     width: 20%;
     font-size: 14px;
-    background-color: lightblue;
+}
+
+#mainbody {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5px;
 }
 
 content {
     width: 50%;
     font-size: 12px;
-    background-color: lightgreen;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -185px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    font-size: 12px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 55px;
 }
 
