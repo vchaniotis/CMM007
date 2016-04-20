@@ -23,8 +23,8 @@ img {
     background-color: red;
     width: 30%;
     position: absolute;
-    right: 120px;
-    top: 0px;
+    left: 20%;
+    top: 0;
 }
 
 #subtitle {
