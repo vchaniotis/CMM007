@@ -8,6 +8,10 @@ body {
     font-family: "Verdana", Times, sans-serif;
 }
 
+header {
+    background-color: lightseagreen;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
