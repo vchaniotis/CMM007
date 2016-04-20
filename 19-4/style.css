@@ -25,10 +25,9 @@ img {
 
 #section {
     background-color: red;
-    width: 30%;
+    width: 230px;
     position: absolute;
-    left: 20%;
-    top: 0;
+    left: 120px;
 }
 
 #subtitle {
