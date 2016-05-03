@@ -60,6 +60,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 <?php
     }
     elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        echo $_POST["summary"];
+        $name = $_POST["name"];
+        $summary = $_POST["summary"];
+        $category = $_POST["category"];
+        header("location: index.php");
+    }
+    else {
+        header("location: index.php");
     }
 
