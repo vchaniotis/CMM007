@@ -21,24 +21,24 @@ img {
 
 #section {
     width: 430px;
-    position: absolute;
     margin-left: 135px;
     margin-top: -115px;
 }
 
 #subtitle {
     font-size: 20px;
-    position: absolute;
     margin-top: -20px;
 }
 
 #navigation {
     width: 20%;
     font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
 }
 
 #mainbody {
-    position: relative;
     margin-top: 20px;
     margin-left: 5px;
 }
@@ -46,41 +46,35 @@ img {
 content {
     width: 50%;
     font-size: 12px;
-    position: absolute;
-    margin-left: 150px;
-    margin-top: -185px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
 }
 
 #boxname {
     width: 200px;
-    position: absolute;
     margin-left: 30px;
 }
 
 #boxsummary {
     width: 200px;
-    position: absolute;
     margin-left: 8px;
 }
 
 #boxcategory {
     width: 200px;
-    position: absolute;
     margin-left: 10px;
 }
 
 #summary {
-    position: absolute;
     margin-top: 10px;
 }
 
 #category {
-    position: absolute;
     margin-top: 85px;
 }
 
 #button {
-    position: absolute;
     margin-left: 233px;
     margin-top: 115px;
 }
@@ -91,8 +85,7 @@ a {
 
 footer {
     font-size: 12px;
-    position: absolute;
     margin-left: 5px;
-    margin-top: 55px;
+    margin-bottom: 25px;
 }
 
