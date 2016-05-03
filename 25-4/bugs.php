@@ -42,8 +42,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             </ul>
         </div>
         <content>
-            <div id="form" method="POST">
-                <form>
+            <div id="form">
+                <form method="POST">
                     <div id="name">Bug Name <input type="text" name="name" id="boxname"><br></div>
                     <div id="summary">Bug Summary <textarea rows="3" cols="50" name="summary" id="boxsummary"></textarea><br></div>
                     <div id="category">Bug Category <input type="text" name="category" id="boxcategory"><br></div>
