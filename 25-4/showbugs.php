@@ -27,21 +27,34 @@
             </ul>
         </div>
         <content>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div style="height: 220px; overflow-y: auto;">
+                <?php
+                include("connection.php");
+                $sql = "SELECT * FROM bugs";
+                if(!empty($_GET["id"])){
+                    $id = $_GET["id"];
+                    $sql = "SELECT * FROM bugs WHERE bugID = '$id'";
+                }
+                elseif(!empty($_GET["category"])) {
+                    $category = $_GET["category"];
+                    $sql = "SELECT * FROM bugs WHERE BugCategory = '$category'";
+                }
+
+                $result = mysqli_query($db, $sql);
+
+                while($row = $result -> fetch_array()) {
+                    $movieTitle = $row['bugName'];
+                    echo "<p>" . $movieTitle . "</p>";
+                    $year = $row['BugSummary'];
+                    echo "<p>" . $year . "</p>";
+                    $studio = $row['BugCategory'];
+                    echo "<p>" . $studio . "</p>";
+                }
+                ?>
+            </div>
         </content>
     </div>
     <footer>Designed by Chaniotis Vasileios 2016</footer>
 </div>
 </body>
 </html>
-
-<?php
-/**
- * Created by PhpStorm.
- * User: 1510996
- * Date: 25/04/2016
- * Time: 09:22
- */
-
-
-?>
