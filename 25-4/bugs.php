@@ -1,3 +1,18 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 1510996
+ * Date: 25/04/2016
+ * Time: 09:23
+ */
+
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +42,7 @@
             </ul>
         </div>
         <content>
-            <div id="form">
+            <div id="form" method="POST">
                 <form>
                     <div id="name">Bug Name <input type="text" name="name" id="boxname"><br></div>
                     <div id="summary">Bug Summary <textarea rows="3" cols="50" name="summary" id="boxsummary"></textarea><br></div>
@@ -43,11 +58,8 @@
 </html>
 
 <?php
-/**
- * Created by PhpStorm.
- * User: 1510996
- * Date: 25/04/2016
- * Time: 09:23
- */
+    }
+    elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-?>
+    }
+
